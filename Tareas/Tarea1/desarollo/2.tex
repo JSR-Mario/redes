@@ -1,1 +1,18 @@
+\textbf{\textit{Investigué sobre cuál es la diferencia entre un cable serial DTE y serial DCE}}
 
+\begin{itemize}
+    \item \textbf{\textit{DTE (Data Terminal Equipment):}} 
+        Es el equipo terminal de datos; representa el origen o el destino de la información. Su
+        función es generar y recibir los datos. Dispositivos comunes son: computadoras, terminales o
+        interfaces de un router. No genera la señal de reloj; la recibe del DCE. 
+
+    \item \textbf{\textit{DCE (Data Communications Equipment):}}
+        Es el equipo de comunicación de datos. Actúa como intermediario entre el DTE y la red de
+        transmisión. Su función es proporcionar los servicios de temporización y conversión de señal
+        para que los datos viajen por la línea. Dispositivos de este tipo son: módems, CSU/DSU o
+        switches. Es el responsable de generar la señal de reloj o \textit{clock rate} que sincroniza la
+        comunicación en el bus serial. 
+
+\end{itemize}
+
+\cite{stallings2013data}
